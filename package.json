@@ -20,6 +20,8 @@
     "repository": "github:jenewland1999/wiportfolio",
     "scripts": {},
     "dependencies": {},
-    "devDependencies": {},
+    "devDependencies": {
+        "prettier": "^1.19.1"
+    },
     "private": true
 }
