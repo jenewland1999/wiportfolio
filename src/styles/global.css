@@ -1,0 +1,20 @@
+:root {
+    --wip-color-white: #ffffff;
+    --wip-color-black: #000000;
+    --wip-color-grey: #c3c3c3;
+    --wip-color-text: #3d3d3d;
+    --wip-color-primary: #6a1b9a;
+    --wip-color-primary-light: #9c4dcc;
+    --wip-color-primary-dark: #38006b;
+    --wip-font-family-heading: Merriweather, serif;
+    --wip-font-family-body: proxima-nova, sans-serif;
+    --wip-font-size: 16px;
+
+    font-size: var(--wip-font-size);
+}
+
+html {
+    color: var(--wip-color-text);
+    font-family: var(--wip-font-family-body);
+    font-size: 1rem;
+}
