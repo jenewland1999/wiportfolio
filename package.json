@@ -1,0 +1,25 @@
+{
+    "name": "wiportfolio",
+    "version": "1.0.0",
+    "description": "My forever work in progress portfolio website.",
+    "keywords": [
+        "portfolio",
+        "website",
+        "react",
+        "gatsby",
+        "fontawesome",
+        "typekit"
+    ],
+    "homepage": "https://github.com/jenewland1999/wiportfolio",
+    "bugs": {
+        "url": "https://github.com/jenewland1999/wiportfolio/issues/",
+        "email": "github@jenewland.me.uk"
+    },
+    "license": "UNLICENSED",
+    "author": "Jordan Newland <me@jenewland.me.uk> (https://jenewland.me.uk)",
+    "repository": "github:jenewland1999/wiportfolio",
+    "scripts": {},
+    "dependencies": {},
+    "devDependencies": {},
+    "private": true
+}
