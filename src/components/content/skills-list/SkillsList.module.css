@@ -1,0 +1,63 @@
+.skills {
+    margin: 0 0 3em;
+    padding: 0;
+    list-style-type: none;
+}
+
+.skills__title {
+    margin-bottom: 1em;
+}
+
+.skill {
+    margin-bottom: 1em;
+}
+
+.skill[data-skill-level="Confident"] .skill__level {
+    background-color: #28a745;
+    opacity: 0.75;
+}
+
+.skill[data-skill-level="Intermediate"] .skill__level {
+    background-color: #ffc107;
+    opacity: 0.75;
+}
+
+.skill[data-skill-level="Knowledgeable"] .skill__level {
+    background-color: #dc3545;
+    opacity: 0.75;
+}
+
+.skill__level {
+    border-radius: 0.25em;
+    color: var(--wip-color-white);
+    font-size: 0.875rem;
+    font-weight: 500;
+    display: inline-block;
+    letter-spacing: 0.0892857143em;
+    margin: 0;
+    padding: 0 0.5em;
+}
+
+@media screen and (min-width: 360px) {
+    .skills {
+        display: grid;
+        grid-gap: 1em;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (min-width: 360px) {
+    .skills {
+        display: grid;
+        grid-gap: 1em;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (min-width: 1366px) and (orientation: landscape) {
+    .skills {
+        display: grid;
+        grid-gap: 1em;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
