@@ -48,7 +48,7 @@ class IndexPage extends Component {
                                     GET IN TOUCH
                                 </Link>
                                 <a
-                                    href="/cv_newland-j.pdf"
+                                    href="https://cdn.jenewland.me.uk/media/docs/cv_newland-j.pdf"
                                     className={styles.btn__cv}
                                 >
                                     DOWNLOAD CV
