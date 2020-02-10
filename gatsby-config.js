@@ -6,21 +6,12 @@ module.exports = {
         siteUrl: `https://jenewland.me.uk/`,
     },
     plugins: [
-        {
-            resolve: `gatsby-plugin-react-helmet`,
-        },
-        {
-            resolve: `gatsby-plugin-sharp`,
-        },
-        {
-            resolve: `gatsby-transformer-sharp`,
-        },
-        {
-            resolve: `gatsby-plugin-sitemap`,
-        },
-        {
-            resolve: `gatsby-plugin-robots-txt`,
-        },
+        `gatsby-plugin-offline`,
+        `gatsby-plugin-react-helmet`,
+        `gatsby-plugin-robots-txt`,
+        `gatsby-plugin-sharp`,
+        `gatsby-plugin-sitemap`,
+        `gatsby-transformer-sharp`,
         {
             resolve: `gatsby-plugin-manifest`,
             options: {
@@ -50,8 +41,5 @@ module.exports = {
                 },
             },
         },
-        // this (optional) plugin enables Progressive Web App + Offline functionality
-        // To learn more, visit: https://gatsby.dev/offline
-        // `gatsby-plugin-offline`,
     ],
 }
