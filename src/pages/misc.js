@@ -9,7 +9,7 @@ import SEO from "../components/SEO"
 
 import styles from "../styles/pages/404.module.css"
 
-class NotFoundPage extends Component {
+class MiscPage extends Component {
     constructor(props) {
         super(props)
         this.state = {}
@@ -18,13 +18,14 @@ class NotFoundPage extends Component {
     render() {
         return (
             <Layout>
-                <SEO title="404: Not found" />
+                <SEO title="Misc Page" />
                 <section className={styles.page__section}>
                     <div className={styles.container}>
-                        <PageSubtitle text="Uh Oh..." />
-                        <PageTitle text="Page Not Found" />
+                        <PageSubtitle text="More..." />
+                        <PageTitle text="Stuff" />
+
                         <p className={styles.introParagraph}>
-                            You stumbled on a page that doesn't exist.
+                            Something is supposed to go here.
                         </p>
 
                         <div className={styles.cta}>
@@ -43,4 +44,4 @@ class NotFoundPage extends Component {
     }
 }
 
-export default NotFoundPage
+export default MiscPage
