@@ -1,0 +1,61 @@
+.container {
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.page__section {
+    padding: 2em 0;
+    grid-column: 3 / 7;
+}
+
+.introParagraph {
+    margin-bottom: 4em;
+}
+
+.cta {
+    text-align: center;
+}
+
+.cta__text {
+    font-size: 1.25rem;
+}
+
+.cta__btn,
+.cta__btn:visited {
+    /* Derived from Button CSS in Bootstrap v4.3.1 */
+    background-color: var(--wip-color-primary);
+    border: 1px solid var(--wip-color-primary);
+    border-radius: 0.25rem;
+    color: var(--wip-color-white);
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.25rem;
+    font-weight: 500;
+    letter-spacing: 0.0892857143em;
+    line-height: 1.5;
+    padding: 0.375em 0.75em;
+    text-align: center;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+        border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    user-select: none;
+    vertical-align: middle;
+    text-transform: uppercase;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.cta__btn:active,
+.cta__btn:hover,
+.cta__btn:focus {
+    background-color: var(--wip-color-primary-light);
+    border-color: var(--wip-color-primary-light);
+    color: var(--wip-color-white);
+    outline: none;
+}
+
+@media screen and (min-width: 1366px) and (orientation: landscape) {
+    .page__section {
+        padding: 35vh 0;
+    }
+}

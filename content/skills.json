@@ -1,0 +1,233 @@
+{
+    "title": "Portfolio Skills",
+    "skills": [
+        {
+            "id": 1,
+            "name": "HTML",
+            "category": "Language",
+            "level": "Confident"
+        },
+        {
+            "id": 2,
+            "name": "CSS",
+            "category": "Language",
+            "level": "Confident"
+        },
+        {
+            "id": 3,
+            "name": "JavaScript",
+            "category": "Language",
+            "level": "Confident"
+        },
+        {
+            "id": 4,
+            "name": "PHP",
+            "category": "Language",
+            "level": "Intermediate"
+        },
+        {
+            "id": 5,
+            "name": "Sass",
+            "category": "Language",
+            "level": "Intermediate"
+        },
+        {
+            "id": 6,
+            "name": "Less",
+            "category": "Language",
+            "level": "Intermediate"
+        },
+        {
+            "id": 7,
+            "name": "Java",
+            "category": "Language",
+            "level": "Intermediate"
+        },
+        {
+            "id": 8,
+            "name": "C / C++",
+            "category": "Language",
+            "level": "Knowledgeable"
+        },
+        {
+            "id": 9,
+            "name": "Python",
+            "category": "Language",
+            "level": "Knowledgeable"
+        },
+        {
+            "id": 10,
+            "name": "PL/SQL / SQL",
+            "category": "Language",
+            "level": "Intermediate"
+        },
+        {
+            "id": 11,
+            "name": "Lua",
+            "category": "Language",
+            "level": "Knowledgeable"
+        },
+        {
+            "id": 12,
+            "name": "VisualBasic .NET",
+            "category": "Language",
+            "level": "Knowledgeable"
+        },
+        {
+            "id": 13,
+            "name": "Z notation",
+            "category": "Language",
+            "level": "Knowledgeable"
+        },
+        {
+            "id": 14,
+            "name": "Bootstrap 3 / 4",
+            "category": "Framework / Library",
+            "level": "Confident"
+        },
+        {
+            "id": 15,
+            "name": "jQuery",
+            "category": "Framework / Library",
+            "level": "Confident"
+        },
+        {
+            "id": 16,
+            "name": "React",
+            "category": "Framework / Library",
+            "level": "Intermediate"
+        },
+        {
+            "id": 17,
+            "name": "Gatsby",
+            "category": "Framework / Library",
+            "level": "Intermediate"
+        },
+        {
+            "id": 18,
+            "name": "Phaser",
+            "category": "Framework / Library",
+            "level": "Knowledgeable"
+        },
+        {
+            "id": 19,
+            "name": "WordPress",
+            "category": "Framework / Library",
+            "level": "Knowledgeable"
+        },
+        {
+            "id": 20,
+            "name": "Express",
+            "category": "Framework / Library",
+            "level": "Intermediate"
+        },
+        {
+            "id": 21,
+            "name": "Next.js",
+            "category": "Framework / Library",
+            "level": "Intermediate"
+        },
+        {
+            "id": 22,
+            "name": "Webpack",
+            "category": "Framework / Library",
+            "level": "Intermediate"
+        },
+        {
+            "id": 23,
+            "name": "Grunt",
+            "category": "Framework / Library",
+            "level": "Knowledgeable"
+        },
+        {
+            "id": 24,
+            "name": "Parcel.js",
+            "category": "Framework / Library",
+            "level": "Intermediate"
+        },
+        {
+            "id": 25,
+            "name": "Pug / Jade",
+            "category": "Framework / Library",
+            "level": "Confident"
+        },
+        {
+            "id": 26,
+            "name": "EJS",
+            "category": "Framework / Library",
+            "level": "Confident"
+        },
+        {
+            "id": 27,
+            "name": "Node JS",
+            "category": "Technology",
+            "level": "Intermediate"
+        },
+        {
+            "id": 28,
+            "name": "Git",
+            "category": "Technology",
+            "level": "Confident"
+        },
+        {
+            "id": 29,
+            "name": "Docker",
+            "category": "Technology",
+            "level": "Knowledgeable"
+        },
+        {
+            "id": 30,
+            "name": "Mongo DB",
+            "category": "Technology",
+            "level": "Knowledgeable"
+        },
+        {
+            "id": 31,
+            "name": "GraphQL",
+            "category": "Technology",
+            "level": "Knowledgeable"
+        },
+        {
+            "id": 32,
+            "name": "Linux Servers",
+            "category": "Technology",
+            "level": "Knowledgeable"
+        },
+        {
+            "id": 33,
+            "name": "Adobe Photoshop",
+            "category": "Technology",
+            "level": "Knowledgeable"
+        },
+        {
+            "id": 34,
+            "name": "Adobe Illustrator",
+            "category": "Technology",
+            "level": "Intermediate"
+        },
+        {
+            "id": 35,
+            "name": "Adobe XD",
+            "category": "Technology",
+            "level": "Confident"
+        },
+        {
+            "id": 36,
+            "name": "AWS",
+            "category": "Technology",
+            "level": "Intermediate"
+        },
+        {
+            "id": 37,
+            "name": "Digital Ocean",
+            "category": "Technology",
+            "level": "Intermediate"
+        },
+        {
+            "id": 38,
+            "name": "cPanel",
+            "category": "Technology",
+            "level": "Knowledgeable"
+        }
+    ]
+}

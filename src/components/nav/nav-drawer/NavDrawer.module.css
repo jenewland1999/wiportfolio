@@ -1,0 +1,29 @@
+.nav-drawer {
+    background-color: var(--wip-color-white);
+    box-shadow: 3px 0 6px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-flow: column nowrap;
+    height: 100vh;
+    left: 0;
+    justify-content: space-between;
+    padding: 2em 1em;
+    position: fixed;
+    top: 0;
+    width: 75vw;
+    max-width: 360px;
+    z-index: 1002;
+}
+
+.nav-drawer__title {
+    font-family: var(--wip-font-family-display);
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin: 0;
+}
+
+.nav-drawer__subtitle {
+    color: var(--wip-color-grey);
+    font-size: 0.875rem;
+    font-weight: 400;
+    margin: 0;
+}

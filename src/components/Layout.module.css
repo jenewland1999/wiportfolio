@@ -1,0 +1,24 @@
+.page {
+    display: flex;
+    flex-flow: column nowrap;
+    min-height: 100vh;
+}
+
+.page__content {
+    flex-grow: 1;
+}
+
+@media screen and (min-width: 1366px) and (orientation: landscape) {
+    .page {
+        display: block;
+        min-height: auto;
+        margin-left: 96px;
+    }
+
+    .page__content {
+        display: grid;
+        flex-grow: 0;
+        grid-template-columns: repeat(8, 1fr);
+        min-height: 100vh;
+    }
+}
