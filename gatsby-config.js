@@ -15,7 +15,10 @@ module.exports = {
         {
             resolve: `gatsby-plugin-preconnect`,
             options: {
-                domains: ["https://use.typekit.net"],
+                domains: [
+                    "https://use.typekit.net",
+                    "https://cdn.jenewland.me.uk",
+                ],
             },
         },
         {
