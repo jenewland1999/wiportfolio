@@ -13,6 +13,12 @@ module.exports = {
         `gatsby-plugin-sitemap`,
         `gatsby-transformer-sharp`,
         {
+            resolve: `gatsby-plugin-preconnect`,
+            options: {
+                domains: ["https://use.typekit.net"],
+            },
+        },
+        {
             resolve: `gatsby-plugin-manifest`,
             options: {
                 name: `W.I.Portfolio`,
