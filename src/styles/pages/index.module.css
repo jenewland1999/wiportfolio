@@ -3,8 +3,8 @@
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
-    height: 65vh;
     margin-bottom: 2em;
+    padding: 2em 0;
 }
 
 .hero__content {
