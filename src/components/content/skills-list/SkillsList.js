@@ -1,6 +1,5 @@
 import React, { Component } from "react"
 import JSONData from "../../../../content/skills.json"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 import styles from "./SkillsList.module.css"
 
