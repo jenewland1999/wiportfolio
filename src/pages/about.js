@@ -134,7 +134,7 @@ class AboutPage extends Component {
                             </p>
                             <a
                                 className={styles.cta__btn}
-                                href="/cv_newland-j.pdf"
+                                href="https://cdn.jenewland.me.uk/media/docs/cv_newland-j.pdf"
                             >
                                 <FontAwesomeIcon icon="file-alt" fixedWidth />
                                 &nbsp;Download CV
