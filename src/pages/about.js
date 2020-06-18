@@ -63,7 +63,7 @@ class AboutPage extends Component {
                                 />
                                 <span>Cuppa Count</span>
                             </h3>
-                            <Counter end={1200} />
+                            <Counter end={1600} />
                             <p>... cups of tea since September 2018.</p>
                         </section>
 
