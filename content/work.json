@@ -44,8 +44,8 @@
         {
             "id": 6,
             "name": "Arrow Shooter Game",
-            "description": "A bird's-eye view, arrow-shooting game built using HTML, CSS and JavaScript.",
-            "lastUpdated": "2020-02-09",
+            "description": "A bird's-eye view arrow-shooting game built using HTML, CSS and JavaScript.",
+            "lastUpdated": "2020-06-18",
             "demoLink": "https://jenewland1999.github.io/arrow-shooter-game",
             "githubLink": "https://github.com/jenewland1999/arrow-shooter-game"
         },
