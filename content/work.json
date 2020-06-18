@@ -5,7 +5,7 @@
             "id": 1,
             "name": "W.I.Portfolio",
             "description": "The codebase behind my forever work-in-progress portfolio website. Built using Gatsby and many other cool technologies.",
-            "lastUpdated": "2020-02-17",
+            "lastUpdated": "2020-06-18",
             "demoLink": "https://jenewland.me.uk",
             "githubLink": "https://github.com/jenewland1999/wiportfolio"
         },
@@ -13,7 +13,7 @@
             "id": 2,
             "name": "iBuy Auctions",
             "description": "iBuy Auctions is a watered-down clone of the popular auction site eBay. The site is built from the ground up using PHP - no framework, MySQL, HTML, CSS and JavaScript.",
-            "lastUpdated": "2020-02-18",
+            "lastUpdated": "2020-06-18",
             "demoLink": "",
             "githubLink": "https://github.com/jenewland1999/ibuy-auctions"
         },
@@ -68,8 +68,8 @@
         {
             "id": 9,
             "name": "Barclaycard Challenge 2019",
-            "description": "Our team's (winning) submission for the Barclaycard Challenge 2019 - A artwork e-commerce website utilising PHP & MySQL implementing Barclaycard's payment technology.",
-            "lastUpdated": "2020-01-25",
+            "description": "Our team's winning submission for the Barclaycard Challenge 2019 - An artwork e-commerce website utilising PHP & MySQL implementing Barclaycard's payment technology.",
+            "lastUpdated": "2020-06-18",
             "demoLink": "",
             "githubLink": "https://github.com/jenewland1999/barclaycard-challenge-2019"
         },
@@ -84,16 +84,16 @@
         {
             "id": 11,
             "name": "Client-side To-Do List",
-            "description": "A Small Client-Side JavaScript Game. Just Guess the Correct Colour.",
-            "lastUpdated": "2018-01-15",
+            "description": "A simple client-side to-do list built using HTML, CSS and JavaScript.",
+            "lastUpdated": "2018-06-18",
             "demoLink": "https://jenewland1999.github.io/clientside-to-do-list",
             "githubLink": "https://github.com/jenewland1999/clientside-to-do-list"
         },
         {
             "id": 12,
             "name": "Patatap Recreation",
-            "description": "Utilising JavaScript libraries to recreate a simplified version of Patatap",
-            "lastUpdated": "2020-02-09",
+            "description": "Using JavaScript libraries to recreate the core functionality of Patatap.",
+            "lastUpdated": "2020-06-18",
             "demoLink": "https://jenewland1999.github.io/patatap-recreation",
             "githubLink": "https://github.com/jenewland1999/patatap-recreation"
         },
