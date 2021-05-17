@@ -1,9 +1,0 @@
-.mobile-nav {
-    display: none;
-}
-
-@media screen and (min-width: 1366px) and (orientation: landscape) {
-    .mobile-nav {
-        display: block;
-    }
-}

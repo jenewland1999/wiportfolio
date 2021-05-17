@@ -1,109 +1,125 @@
 {
-    "title": "Portfolio Work",
-    "work": [
-        {
-            "id": 1,
-            "name": "W.I.Portfolio",
-            "description": "The codebase behind my forever work-in-progress portfolio website. Built using Gatsby and many other cool technologies.",
-            "lastUpdated": "2020-06-18",
-            "demoLink": "https://jenewland.me.uk",
-            "githubLink": "https://github.com/jenewland1999/wiportfolio"
-        },
-        {
-            "id": 2,
-            "name": "iBuy Auctions",
-            "description": "iBuy Auctions is a watered-down clone of the popular auction site eBay. The site is built from the ground up using PHP - no framework, MySQL, HTML, CSS and JavaScript.",
-            "lastUpdated": "2020-06-18",
-            "demoLink": "",
-            "githubLink": "https://github.com/jenewland1999/ibuy-auctions"
-        },
-        {
-            "id": 3,
-            "name": "Jo's Jobs",
-            "description": "Jo's Jobs is a small recruitment agency website used to advertise jobs to applicants. The site is built from the ground up using PHP, MySQL, HTML, CSS and JavaScript.",
-            "lastUpdated": "2020-06-18",
-            "demoLink": "",
-            "githubLink": "https://github.com/jenewland1999/ibuy-auctions"
-        },
-        {
-            "id": 4,
-            "name": "My Northampton",
-            "description": "A personal project that overhauled the University of Northampton Student Portal (Extranet). This was achieved through improved RWD utilising CSS Grid with appropriate fallbacks for legacy browsers. The project's success was measured through the use of Google Lighthouse.",
-            "lastUpdated": "2020-06-18",
-            "demoLink": "https://jenewland1999.github.io/my-northampton",
-            "githubLink": "https://github.com/jenewland1999/my-northampton"
-        },
-        {
-            "id": 5,
-            "name": "The New Web Times",
-            "description": "The New Web Times is newspaper website created for a first-year university assignment. This static website demonstrates a series of web-based skills such as RWD, Semantic Markup and the basics of a PWA.",
-            "lastUpdated": "2020-01-25",
-            "demoLink": "https://jenewland1999.github.io/the-new-web-times",
-            "githubLink": "https://github.com/jenewland1999/the-new-web-times"
-        },
-        {
-            "id": 6,
-            "name": "Arrow Shooter Game",
-            "description": "A bird's-eye view arrow-shooting game built using HTML, CSS and JavaScript.",
-            "lastUpdated": "2020-06-18",
-            "demoLink": "https://jenewland1999.github.io/arrow-shooter-game",
-            "githubLink": "https://github.com/jenewland1999/arrow-shooter-game"
-        },
-        {
-            "id": 7,
-            "name": "Total Engineering & Welding",
-            "description": "A mobile-first, responsive static website using modern CSS layout tools to provide my client with a platform to advertise their new start-up business.",
-            "lastUpdated": "2019-06-18",
-            "demoLink": "https://totalengineeringandwelding.uk",
-            "githubLink": ""
-        },
-        {
-            "id": 8,
-            "name": "Brad Lovejoy Homepage",
-            "description": "A single-page, static personal website for a client to replace their rather dull and plain-looking parking page previously in place.",
-            "lastUpdated": "2019-02-08",
-            "demoLink": "https://jenewland1999.github.io/lovejoyb-homepage",
-            "githubLink": "https://github.com/jenewland1999/lovejoyb-homepage"
-        },
-        {
-            "id": 9,
-            "name": "Barclaycard Challenge 2019",
-            "description": "Our team's winning submission for the Barclaycard Challenge 2019 - An artwork e-commerce website utilising PHP & MySQL implementing Barclaycard's payment technology.",
-            "lastUpdated": "2020-06-18",
-            "demoLink": "",
-            "githubLink": "https://github.com/jenewland1999/barclaycard-challenge-2019"
-        },
-        {
-            "id": 10,
-            "name": "RGB Colour Game",
-            "description": "A Small Client-Side JavaScript Game. Just Guess the Correct Colour.",
-            "lastUpdated": "2019-02-09",
-            "demoLink": "https://jenewland1999.github.io/rgb-colour-game",
-            "githubLink": "https://github.com/jenewland1999/rgb-colour-game"
-        },
-        {
-            "id": 11,
-            "name": "Client-side To-Do List",
-            "description": "A simple client-side to-do list built using HTML, CSS and JavaScript.",
-            "lastUpdated": "2018-06-18",
-            "demoLink": "https://jenewland1999.github.io/clientside-to-do-list",
-            "githubLink": "https://github.com/jenewland1999/clientside-to-do-list"
-        },
-        {
-            "id": 12,
-            "name": "Patatap Recreation",
-            "description": "Using JavaScript libraries to recreate the core functionality of Patatap.",
-            "lastUpdated": "2020-06-18",
-            "demoLink": "https://jenewland1999.github.io/patatap-recreation",
-            "githubLink": "https://github.com/jenewland1999/patatap-recreation"
-        },
-        {
-            "id": 13,
-            "name": "Understanding The Web",
-            "description": "Understanding The Web is a static website created for a first-year college assignment. The purpose of this website is to inform users, at an introductory level, about HTML, CSS, web performance and web security.",
-            "lastUpdated": "2020-06-18",
-            "demoLink": "https://jenewland1999.github.io/understanding-the-web",
-            "githubLink": "https://github.com/jenewland1999/understanding-the-web"
-        }
-    ]
+  "title": "Portfolio Work",
+  "work": [
+    {
+      "featured": false,
+      "name": "W.I.Portfolio",
+      "description": "The source code for my forever work-in-progress portfolio website cleverly named wiportfolio.",
+      "lastUpdated": "2021-05-18",
+      "demoLink": "https://jenewland.me.uk",
+      "githubLink": "https://github.com/jenewland1999/wiportfolio"
+    },
+    {
+      "featured": true,
+      "name": "Woodlands UC",
+      "description": "The public-facing website prototype for Woodlands University College - a theoretical higher education institute based in the UK. Woodlands UC was the client for our second-year university group project module. This codebase, as well as the designs for the website, were my main contribution to the project.",
+      "lastUpdated": "2020-06-19",
+      "demoLink": "https://woodlandsuc.uk/",
+      "githubLink": "https://github.com/jenewland1999/woodlands-uc"
+    },
+    {
+      "featured": false,
+      "name": "iBuy Auctions",
+      "description": "iBuy Auctions is a watered-down clone of the popular auction site eBay. The site is built from the ground up using PHP - no framework, MySQL, HTML, CSS and JavaScript.",
+      "lastUpdated": "2020-06-18",
+      "demoLink": "",
+      "githubLink": "https://github.com/jenewland1999/ibuy-auctions"
+    },
+    {
+      "featured": false,
+      "name": "Jo's Jobs",
+      "description": "Jo's Jobs is a small recruitment agency website used to advertise jobs to applicants. The site is built from the ground up using PHP, MySQL, HTML, CSS and JavaScript.",
+      "lastUpdated": "2020-06-18",
+      "demoLink": "",
+      "githubLink": "https://github.com/jenewland1999/ibuy-auctions"
+    },
+    {
+      "featured": true,
+      "name": "My Northampton",
+      "description": "A personal project that overhauled the University of Northampton Student Portal (Extranet). This was achieved through improved RWD utilising CSS Grid with appropriate fallbacks for legacy browsers. The project's success was measured through the use of Google Lighthouse.",
+      "lastUpdated": "2020-06-18",
+      "demoLink": "https://jenewland1999.github.io/my-northampton",
+      "githubLink": "https://github.com/jenewland1999/my-northampton"
+    },
+    {
+      "featured": false,
+      "name": "The New Web Times",
+      "description": "The New Web Times is newspaper website created for a first-year university assignment. This static website demonstrates a series of web-based skills such as RWD, Semantic Markup and the basics of a PWA.",
+      "lastUpdated": "2020-01-25",
+      "demoLink": "https://jenewland1999.github.io/the-new-web-times",
+      "githubLink": "https://github.com/jenewland1999/the-new-web-times"
+    },
+    {
+      "featured": false,
+      "name": "Arrow Shooter Game",
+      "description": "A bird's-eye view arrow-shooting game built using HTML, CSS and JavaScript.",
+      "lastUpdated": "2020-06-18",
+      "demoLink": "https://jenewland1999.github.io/arrow-shooter-game",
+      "githubLink": "https://github.com/jenewland1999/arrow-shooter-game"
+    },
+    {
+      "featured": false,
+      "name": "Total Engineering & Welding",
+      "description": "A mobile-first, responsive static website using modern CSS layout tools to provide my client with a platform to advertise their new start-up business.",
+      "lastUpdated": "2019-06-18",
+      "demoLink": "https://totalengineeringandwelding.uk",
+      "githubLink": ""
+    },
+    {
+      "featured": false,
+      "name": "Brad Lovejoy Homepage",
+      "description": "A single-page, static personal website for a client to replace their rather dull and plain-looking parking page previously in place.",
+      "lastUpdated": "2019-02-08",
+      "demoLink": "https://jenewland1999.github.io/lovejoyb-homepage",
+      "githubLink": "https://github.com/jenewland1999/lovejoyb-homepage"
+    },
+    {
+      "featured": true,
+      "name": "Barclaycard Challenge 2019",
+      "description": "Our team's winning submission for the Barclaycard Challenge 2019 - An artwork e-commerce website utilising PHP & MySQL implementing Barclaycard's payment technology.",
+      "lastUpdated": "2020-06-18",
+      "demoLink": "",
+      "githubLink": "https://github.com/jenewland1999/barclaycard-challenge-2019"
+    },
+    {
+      "featured": false,
+      "name": "RGB Colour Game",
+      "description": "A Small Client-Side JavaScript Game. Just Guess the Correct Colour.",
+      "lastUpdated": "2019-02-09",
+      "demoLink": "https://jenewland1999.github.io/rgb-colour-game",
+      "githubLink": "https://github.com/jenewland1999/rgb-colour-game"
+    },
+    {
+      "featured": false,
+      "name": "Client-side To-Do List",
+      "description": "A simple client-side to-do list built using HTML, CSS and JavaScript.",
+      "lastUpdated": "2018-06-18",
+      "demoLink": "https://jenewland1999.github.io/clientside-to-do-list",
+      "githubLink": "https://github.com/jenewland1999/clientside-to-do-list"
+    },
+    {
+      "featured": false,
+      "name": "Patatap Recreation",
+      "description": "Using JavaScript libraries to recreate the core functionality of Patatap.",
+      "lastUpdated": "2020-06-18",
+      "demoLink": "https://jenewland1999.github.io/patatap-recreation",
+      "githubLink": "https://github.com/jenewland1999/patatap-recreation"
+    },
+    {
+      "featured": false,
+      "name": "Understanding The Web",
+      "description": "Understanding The Web is a static website created for a first-year college assignment. The purpose of this website is to inform users, at an introductory level, about HTML, CSS, web performance and web security.",
+      "lastUpdated": "2020-06-18",
+      "demoLink": "https://jenewland1999.github.io/understanding-the-web",
+      "githubLink": "https://github.com/jenewland1999/understanding-the-web"
+    },
+    {
+      "featured": true,
+      "name": "Branoperty",
+      "description": "Branoperty is a small, lightweight and open-source application designed for estate agencies. It provides a comprehensive branch and property management system.",
+      "lastUpdated": "2020-08-28",
+      "demoLink": "",
+      "githubLink": "https://github.com/jenewland1999/branoperty"
+    }
+  ]
 }
