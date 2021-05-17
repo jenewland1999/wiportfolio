@@ -1,11 +1,3 @@
-# W.I.Portfolio
+# wiportfolio
 
-The codebase behind my forever work-in-progress portfolio website. Built using Gatsby and many other cool technologies.
-
-## Description
-
-This repository is home to my portfolio website which is, I believe, cleverly named W.I.Portfolio.
-
-My portfolio website is currently built using [Gatsby](https://gatsbyjs.org/) a relatively new frontend framework built using [React](https://reactjs.org/), [GraphQL](https://graphql.org) and many other technologies. While some would argue this is perhaps overkill for what is essentially a brochure-style website, I'd argue that [Gatsby](https://gatsbyjs.org/) provides great [SEO](https://en.wikipedia.org/wiki/Search_engine_optimization) and [PWA](https://en.wikipedia.org/wiki/Progressive_web_application) features as well as handling a lot of time-consuming build tasks like cache invalidation, pre-compiling JS, Sass, CSS (Auto Prefixer and CSS Modules) and so forth.
-
-&copy; 2020 Jordan Newland
+The source code for my forever work-in-progress portfolio website cleverly named wiportfolio.
