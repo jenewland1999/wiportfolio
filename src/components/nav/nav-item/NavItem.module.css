@@ -1,8 +1,0 @@
-.nav__item {
-    display: block;
-    margin-bottom: 1.5em;
-}
-
-.nav__item:last-of-type {
-    margin-bottom: 0;
-}
