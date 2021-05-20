@@ -40,7 +40,7 @@ const Layout = ({ pageTitle, children }) => {
       <div className="min-h-screen flex flex-col text-gray-900 bg-hero-pattern">
         <SkipToContent
           contentId="#content"
-          label="Skip to content"
+          label="Skip to Content"
           icon={<IonIcon name="accessibility" />}
         />
 

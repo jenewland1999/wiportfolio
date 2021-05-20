@@ -1,11 +1,12 @@
 import IonIcon from "@reacticons/ionicons";
 import * as React from "react";
 import Layout from "../../components/layout";
+import ButtonAnchor from "../../components/buttons/buttonanchor";
 import JSONData from "../../../content/work.json";
 import { ReactComponent as HeroImage } from "../../images/hero-work.svg";
 
 const WorkIndex = () => {
-  const dtFormatter = new Intl.DateTimeFormat("en-GB", {
+  const dateFmt = new Intl.DateTimeFormat("en-GB", {
     year: "numeric",
     month: "short",
     day: "2-digit",
@@ -23,38 +24,41 @@ const WorkIndex = () => {
 
   return (
     <Layout pageTitle="Work">
-      <section className="flex items-center my-28">
-        <article className="max-w-3xl mr-16">
-          <h2 className="text-5xl font-medium mb-6">
+      <section className="md:flex items-center">
+        <article className="max-w-3xl md:w-2/3 mb-16 md:mb-0 md:mr-16 ">
+          <h2 className="text-4xl md:text-5xl text-center md:text-left font-medium mb-6">
             Explore my <strong>work</strong>
           </h2>
-          <p className="text-xl leading-relaxed mb-4">
+          <p className="md:text-xl text-center md:text-left leading-relaxed mb-4">
             Below you will find a collection of noteworthy projects I have
             created over the last six years or so. Some are rudimentary others
             are more complex. These projects include assignment builds,
             freelance projects, course projects, and personal projects.
           </p>
-          <div className="space-x-4">
-            <a
-              className="whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm font-medium text-lg text-white bg-gradient-to-r align-middle from-purple-800 to-purple-500 hover:opacity-80 focus:opacity-80 outline-none transition-opacity"
+          <div className="space-y-4 md:space-y-0 md:space-x-4">
+            <ButtonAnchor
+              className="w-full md:w-auto"
               href="mailto:hello@jenewland.me.uk"
-            >
-              contact me
-            </a>
-            <a
-              className="whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md align-middle shadow bg-white font-medium text-lg transition-shadow outline-none hover:shadow-lg focus:shadow-lg"
+              icon={<IonIcon name="mail" />}
+              text="Contact Me"
+              isExternal
+            />
+            <ButtonAnchor
+              className="w-full md:w-auto"
               href="https://github.com/jenewland1999"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <IonIcon name="logo-github" className="mr-2" /> GitHub
-            </a>
+              icon={<IonIcon name="logo-github" />}
+              text="View GitHub"
+              variant="secondary"
+              isExternal
+            />
           </div>
         </article>
-        <HeroImage className="w-full h-full" />
+        <figure className="w-full md:w-1/3">
+          <HeroImage className="block h-full w-full" />
+        </figure>
       </section>
       <section className="my-28">
-        <ul className="grid grid-cols-3 gap-6 grid-flow-row-dense">
+        <ul className="space-y-6 md:space-y-0 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-6 md:grid-flow-row-dense">
           {JSONData.work
             .sort(compareFn)
             .map(
@@ -82,34 +86,31 @@ const WorkIndex = () => {
                     <span className="ml-2">
                       Last updated{" "}
                       <time dateTime={lastUpdated}>
-                        {dtFormatter.format(new Date(lastUpdated))}
+                        {dateFmt.format(new Date(lastUpdated))}
                       </time>
                     </span>
                   </p>
                   <h3 className="font-medium mb-6 text-xl">{name}</h3>
                   <p className="mb-6">{description}</p>
-                  <div className="space-x-4 mt-auto">
+                  <div className="mt-auto space-y-4 xl:space-y-0 xl:space-x-4">
                     {demoLink && (
-                      <a
+                      <ButtonAnchor
+                        className="w-full xl:w-auto"
                         href={demoLink}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm font-medium text-lg text-white bg-gradient-to-r align-middle from-purple-800 to-purple-500 hover:opacity-80 focus:opacity-80 outline-none transition-opacity"
-                      >
-                        <IonIcon name="open-outline" />
-                        <span className="ml-2">demo/live site</span>
-                      </a>
+                        icon={<IonIcon name="open-outline" />}
+                        text="Demo/Live Site"
+                        isExternal
+                      />
                     )}
                     {githubLink && (
-                      <a
+                      <ButtonAnchor
+                        className="w-full xl:w-auto"
                         href={githubLink}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md align-middle shadow bg-white font-medium text-lg transition-shadow outline-none hover:shadow-lg focus:shadow-lg"
-                      >
-                        <IonIcon name="logo-github" />
-                        <span className="ml-2">GitHub</span>
-                      </a>
+                        icon={<IonIcon name="logo-github" />}
+                        text="GitHub"
+                        variant="secondary"
+                        isExternal
+                      />
                     )}
                   </div>
                 </li>
