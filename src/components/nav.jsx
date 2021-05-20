@@ -19,18 +19,18 @@ const Nav = ({ isOpen }) => {
         className="block w-full py-4 text-lg md:text-base md:p-0 md:w-auto transition-colors hover:text-purple-700"
         to="/about"
       >
-        about
+        About
       </Link>
       <Link
         className="block w-full py-4 text-lg md:text-base md:p-0 md:w-auto transition-colors hover:text-purple-700"
         to="/work"
       >
-        work
+        Work
       </Link>
       <ButtonAnchor
         className="w-full mt-4 md:w-auto md:mt-0"
         href="mailto:hello@jenewland.me.uk"
-        text="contact me"
+        text="Contact Me"
         isExternal
         isLarge
       />
