@@ -20,7 +20,7 @@ const WorkItem = ({ work }) => {
           : "p-8 bg-white shadow rounded-md flex flex-col"
       }
     >
-      <p className="inline-flex items-center mb-4 text-sm text-gray-500">
+      <span className="inline-flex items-center mb-4 text-sm text-gray-500">
         <IonIcon name="time-outline" />
         <span className="ml-2">
           Last updated{" "}
@@ -28,13 +28,13 @@ const WorkItem = ({ work }) => {
             {dateFmt.format(new Date(lastUpdated))}
           </time>
         </span>
-      </p>
+      </span>
       <h3 className="font-medium mb-6 text-xl">{name}</h3>
       <p className="mb-6">{description}</p>
-      <div className="mt-auto space-y-4 lg:space-y-0 lg:space-x-4">
+      <div className="mt-auto space-y-4 xl:space-y-0 xl:space-x-4">
         {demoLink && (
           <ButtonAnchor
-            className="w-full lg:w-auto"
+            className="w-full xl:w-auto"
             href={demoLink}
             icon={<IonIcon name="open-outline" />}
             text="Demo/Live Site"
@@ -43,7 +43,7 @@ const WorkItem = ({ work }) => {
         )}
         {githubLink && (
           <ButtonAnchor
-            className="w-full lg:w-auto"
+            className="w-full xl:w-auto"
             href={githubLink}
             icon={<IonIcon name="logo-github" />}
             text="GitHub"
