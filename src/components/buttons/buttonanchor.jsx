@@ -10,11 +10,13 @@ const ExternalAnchor = ({ text, ...props }) => (
 );
 
 const ButtonAnchor = ({
+  className,
   href,
   text,
   variant = "primary",
   isExternal,
   isLarge,
+  isBlock,
 }) => {
   const buttonAnchorClasses = ctl(`
     border
@@ -24,6 +26,7 @@ const ButtonAnchor = ({
     items-center
     justify-center
     outline-none
+    ${isBlock ? "w-full" : ""}
     ${isLarge ? "px-6 py-3" : "px-4 py-2"}
     rounded-md
     whitespace-nowrap
@@ -35,6 +38,7 @@ const ButtonAnchor = ({
       variant === "secondary" &&
       "bg-white shadow transition-shadow hover:shadow-lg focus:shadow-lg"
     }
+    ${className}
   `);
 
   return (

@@ -47,7 +47,7 @@ const Layout = ({ pageTitle, children }) => {
         <Header />
 
         <main
-          className="flex flex-col flex-grow max-w-screen-xl w-full mx-auto my-28 px-4"
+          className="flex flex-col flex-grow max-w-screen-xl w-full  px-4 mx-auto my-20 md:my-28"
           id="content"
         >
           {children}
