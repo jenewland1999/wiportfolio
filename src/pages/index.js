@@ -1,8 +1,8 @@
 import * as React from "react";
-import Layout from "../components/layout";
-import Emoji from "../components/emoji.jsx";
-import { ReactComponent as HeroImage } from "../images/hero-home.svg";
-import ButtonAnchor from "../components/buttons/buttonanchor";
+import ButtonAnchor from "@components/ButtonAnchor";
+import Emoji from "@components/Emoji";
+import Layout from "@components/Layout";
+import { ReactComponent as HeroImage } from "@images/hero-home.svg";
 
 const IndexPage = () => {
   return (

@@ -1,11 +1,18 @@
 {
-  "title": "Portfolio Work",
   "work": [
     {
+      "featured": true,
+      "name": "Buildarmy",
+      "description": "Previously a WordPress and WooCommerce monolith, Buildarmy has been transformed into a headless e-commerce store utilising a modern open-source stack. Through hybrid rendering techniques and a decoupled architecture, the project achieves its goals of improved core web vitals and a better end-user experience for customers. Designed and developed in partial fulfilment of the requirements for the degree of BSc (Hons) Computing (Software Engineering) at The University of Northampton.The source code for my forever work-in-progress portfolio website cleverly named wiportfolio.",
+      "lastUpdated": "2021-04-23",
+      "demoLink": "https://buildarmy.vercel.app",
+      "githubLink": "https://github.com/jenewland1999/buildarmy"
+    },
+    {
       "featured": false,
-      "name": "W.I.Portfolio",
+      "name": "wiportfolio (jenew.land)",
       "description": "The source code for my forever work-in-progress portfolio website cleverly named wiportfolio.",
-      "lastUpdated": "2021-05-18",
+      "lastUpdated": "2021-05-20",
       "demoLink": "https://jenewland.me.uk",
       "githubLink": "https://github.com/jenewland1999/wiportfolio"
     },

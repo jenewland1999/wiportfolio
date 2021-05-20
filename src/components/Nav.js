@@ -1,7 +1,7 @@
 import * as React from "react";
 import ctl from "@netlify/classnames-template-literals";
 import { Link } from "gatsby";
-import ButtonAnchor from "./buttons/buttonanchor";
+import ButtonAnchor from "@components/ButtonAnchor";
 
 const Nav = ({ isOpen }) => {
   const cl = ctl(`

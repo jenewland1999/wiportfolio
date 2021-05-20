@@ -2,9 +2,9 @@ import * as React from "react";
 import { Helmet } from "react-helmet";
 import { useStaticQuery, graphql } from "gatsby";
 import IonIcon from "@reacticons/ionicons";
-import SkipToContent from "../components/skiptocontent";
-import Header from "./header";
-import Footer from "./footer";
+import SkipToContent from "@components/SkipToContent";
+import Header from "@components/Header";
+import Footer from "@components/Footer";
 
 const Layout = ({ pageTitle, children }) => {
   const { site } = useStaticQuery(graphql`
