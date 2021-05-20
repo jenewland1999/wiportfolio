@@ -18,10 +18,7 @@ module.exports = {
       },
     },
     `gatsby-transformer-sharp`,
-    {
-      resolve: `gatsby-plugin-sharp`,
-      options: { failOnError: false },
-    },
+    `gatsby-plugin-sharp`,
     `gatsby-plugin-postcss`,
     `gatsby-plugin-svgr`,
     {
