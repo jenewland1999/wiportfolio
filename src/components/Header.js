@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import { Link } from "gatsby";
-import Nav from "./nav";
 import IonIcon from "@reacticons/ionicons";
+import { Link } from "gatsby";
+import Nav from "@components/Nav";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
