@@ -24,13 +24,13 @@ const IndexPage = () => {
             <ButtonAnchor
               className="w-full md:w-auto"
               href="mailto:hello@jenewland.me.uk"
-              text="contact me"
+              text="Contact Me"
               isExternal
             />
             <ButtonAnchor
               className="w-full md:w-auto"
               href="https://cdn.jenewland.me.uk/media/docs/cv_newland-j.pdf"
-              text="view résumé"
+              text="View Résumé"
               variant="secondary"
               isExternal
             />

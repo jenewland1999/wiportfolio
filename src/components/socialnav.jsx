@@ -4,7 +4,7 @@ import IonIcon from "@reacticons/ionicons";
 const SocialNavLink = ({ href, icon }) => {
   return (
     <a
-      className="block text-2xl outline-none transition-colors hover:text-purple-600 focus:text-purple-600"
+      className="block text-3xl outline-none transition-colors hover:text-purple-600 focus:text-purple-600"
       href={href}
       target="_blank"
       rel="noopener noreferrer"
