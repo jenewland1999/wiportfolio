@@ -1,5 +1,5 @@
 import * as React from "react";
-import SocialNav from "./socialnav";
+import SocialNav from "@components/SocialNav";
 
 const Footer = () => {
   return (
