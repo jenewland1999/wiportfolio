@@ -7,8 +7,8 @@ import { ReactComponent as HeroImage } from "@images/hero-home.svg";
 const IndexPage = () => {
   return (
     <Layout>
-      <section className="h-full flex-grow flex flex-col lg:flex-row items-center justify-center">
-        <article className=" mb-16 md:max-w-3xl lg:mb-0 lg:mr-16">
+      <section className="h-full w-full md:max-w-3xl lg:max-w-none md:mx-auto flex-grow flex flex-col lg:flex-row items-center justify-center">
+        <article className="mb-16 lg:max-w-3xl lg:mb-0 lg:mr-16">
           <h2 className="font-medium leading-tight mb-6 text-[2.1rem] md:leading-tight md:text-5xl">
             Hello <Emoji emoji="👋🏻" isDecorative />. I'm Jordan, <br />a{" "}
             <strong>UI/UX Designer</strong> &amp;{" "}
@@ -36,7 +36,7 @@ const IndexPage = () => {
             />
           </div>
         </article>
-        <HeroImage className="w-full h-full md:order-first md:mb-24 lg:order-none lg:mb-0" />
+        <HeroImage className="h-64 w-full order-first sm:mb-6 md:mb-0 md:w-2/4 md:mr-auto lg:w-full lg:order-none" />
       </section>
     </Layout>
   );
