@@ -22,7 +22,7 @@ const Header = () => {
       >
         <IonIcon
           name="menu-outline"
-          className="text-5xl leading-none"
+          className="text-5xl leading-none hover:text-purple-700 focus:text-purple-700 transition-colors"
           role="img"
           aria-label="Toggle menu"
         />
