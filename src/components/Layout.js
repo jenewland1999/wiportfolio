@@ -37,7 +37,7 @@ const Layout = ({ pageTitle, children }) => {
         <link rel="canonical" href={site.siteMetadata.siteUrl} />
       </Helmet>
 
-      <div className="min-h-screen flex flex-col text-gray-900 selection:bg-purple-600 selection:text-white">
+      <div className="min-h-screen flex flex-col text-slate-900 selection:bg-purple-600 selection:text-white dark:bg-slate-900 dark:text-white">
         <SkipToContent
           contentId="#content"
           label="Skip to Content"
