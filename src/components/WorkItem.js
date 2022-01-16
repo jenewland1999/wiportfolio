@@ -1,4 +1,5 @@
 import ButtonAnchor from "@components/ButtonAnchor";
+import ctl from "@netlify/classnames-template-literals";
 import IonIcon from "@reacticons/ionicons";
 import * as React from "react";
 
@@ -14,13 +15,13 @@ const WorkItem = ({ work }) => {
 
   return (
     <li
-      className={
-        featured
-          ? "p-8 bg-white shadow rounded-md flex flex-col col-span-2"
-          : "p-8 bg-white shadow rounded-md flex flex-col"
-      }
+      className={ctl(
+        `p-8 bg-white dark:bg-slate-800 shadow rounded-md flex flex-col ${
+          featured ? "col-span-2" : null
+        }`
+      )}
     >
-      <span className="inline-flex items-center mb-4 text-sm text-gray-500">
+      <span className="inline-flex items-center mb-4 text-sm text-slate-600 dark:text-slate-400">
         <IonIcon name="time-outline" />
         <span className="ml-2">
           Last updated{" "}
