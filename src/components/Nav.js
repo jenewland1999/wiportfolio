@@ -1,7 +1,7 @@
-import * as React from "react";
+import ButtonAnchor from "@components/ButtonAnchor";
 import ctl from "@netlify/classnames-template-literals";
 import { Link } from "gatsby";
-import ButtonAnchor from "@components/ButtonAnchor";
+import * as React from "react";
 
 const Nav = ({ isOpen }) => {
   const cl = ctl(`
@@ -16,13 +16,13 @@ const Nav = ({ isOpen }) => {
   return (
     <nav className={cl}>
       <Link
-        className="block w-full py-4 text-lg md:text-base md:p-0 md:w-auto transition-colors hover:text-purple-700"
+        className="block w-full py-4 text-lg md:text-base md:p-0 md:w-auto transition-colors hover:text-violet-700"
         to="/about"
       >
         About
       </Link>
       <Link
-        className="block w-full py-4 text-lg md:text-base md:p-0 md:w-auto transition-colors hover:text-purple-700"
+        className="block w-full py-4 text-lg md:text-base md:p-0 md:w-auto transition-colors hover:text-violet-700"
         to="/work"
       >
         Work

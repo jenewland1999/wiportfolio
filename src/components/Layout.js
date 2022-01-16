@@ -1,10 +1,10 @@
+import Footer from "@components/Footer";
+import Header from "@components/Header";
+import SkipToContent from "@components/SkipToContent";
+import IonIcon from "@reacticons/ionicons";
+import { graphql, useStaticQuery } from "gatsby";
 import * as React from "react";
 import { Helmet } from "react-helmet";
-import { useStaticQuery, graphql } from "gatsby";
-import IonIcon from "@reacticons/ionicons";
-import SkipToContent from "@components/SkipToContent";
-import Header from "@components/Header";
-import Footer from "@components/Footer";
 
 const Layout = ({ pageTitle, children }) => {
   const { site } = useStaticQuery(graphql`
@@ -37,7 +37,7 @@ const Layout = ({ pageTitle, children }) => {
         <link rel="canonical" href={site.siteMetadata.siteUrl} />
       </Helmet>
 
-      <div className="min-h-screen flex flex-col text-gray-900 bg-hero-pattern">
+      <div className="min-h-screen flex flex-col text-gray-900 selection:bg-purple-600 selection:text-white">
         <SkipToContent
           contentId="#content"
           label="Skip to Content"

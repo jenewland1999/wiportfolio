@@ -1,10 +1,10 @@
-import * as React from "react";
 import IonIcon from "@reacticons/ionicons";
+import * as React from "react";
 
 const SocialNavLink = ({ href, icon }) => {
   return (
     <a
-      className="block text-3xl outline-none transition-colors hover:text-purple-600 focus:text-purple-600"
+      className="block text-3xl outline-none transition-colors hover:text-violet-600 focus:text-violet-600"
       href={href}
       target="_blank"
       rel="noopener noreferrer"

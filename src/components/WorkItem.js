@@ -1,6 +1,6 @@
-import * as React from "react";
-import IonIcon from "@reacticons/ionicons";
 import ButtonAnchor from "@components/ButtonAnchor";
+import IonIcon from "@reacticons/ionicons";
+import * as React from "react";
 
 const WorkItem = ({ work }) => {
   const dateFmt = new Intl.DateTimeFormat("en-GB", {

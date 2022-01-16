@@ -1,5 +1,5 @@
-import * as React from "react";
 import ctl from "@netlify/classnames-template-literals";
+import * as React from "react";
 
 const InternalAnchor = ({ icon, text, ...props }) => (
   <a {...props}>
@@ -39,7 +39,7 @@ const ButtonAnchor = ({
     whitespace-nowrap
     ${
       variant === "primary" &&
-      "bg-gradient-to-r from-purple-800 to-purple-500 shadow-sm text-white transition-opacity hover:opacity-80 focus:opacity-80"
+      "bg-gradient-to-r from-violet-800 to-violet-500 shadow-sm text-white transition-opacity hover:opacity-80 focus:opacity-80"
     }
     ${
       variant === "secondary" &&

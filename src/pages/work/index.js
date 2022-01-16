@@ -1,13 +1,11 @@
-import * as React from "react";
-import IonIcon from "@reacticons/ionicons";
-
-import JSONData from "@content/work.json";
-
 import ButtonAnchor from "@components/ButtonAnchor";
 import Layout from "@components/Layout";
-import { ReactComponent as HeroImage } from "@images/hero-work.svg";
 import WorkItem from "@components/WorkItem";
 import WorkList from "@components/WorkList";
+import JSONData from "@content/work.json";
+import { ReactComponent as HeroImage } from "@images/hero-work.svg";
+import IonIcon from "@reacticons/ionicons";
+import * as React from "react";
 
 const WorkIndex = () => {
   // Compare the lastUpdated property so projects can be sorted in most recently updated first.
@@ -29,7 +27,7 @@ const WorkIndex = () => {
           </h2>
           <p className="md:text-xl text-center md:text-left leading-relaxed mb-4">
             Below you will find a collection of noteworthy projects I have
-            created over the last six years or so. Some are rudimentary others
+            created over the last seven years or so. Some are rudimentary others
             are more complex. These projects include assignment builds,
             freelance projects, course projects, and personal projects.
           </p>
@@ -57,10 +55,8 @@ const WorkIndex = () => {
       </section>
       <section className="my-28">
         <WorkList>
-          {JSONData.work.sort(compareFn).map((work, id) => (
-            <React.Fragment key={id}>
-              <WorkItem work={work} />
-            </React.Fragment>
+          {JSONData.work.sort(compareFn).map((work, idx) => (
+            <WorkItem key={`content_item_${idx}`} work={work} />
           ))}
         </WorkList>
       </section>
