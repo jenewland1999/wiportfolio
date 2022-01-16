@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import Nav from "@components/Nav";
 import IonIcon from "@reacticons/ionicons";
 import { Link } from "gatsby";
-import Nav from "@components/Nav";
+import React, { useState } from "react";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <header className="mt-6 px-4 sm:px-6 flex flex-wrap items-center justify-between">
       <h1 className="font-semibold text-xl tracking-wide">
-        <Link to="/" className="hover:text-purple-700 transition-colors">
+        <Link to="/" className="hover:text-violet-700 transition-colors">
           jenew.land
         </Link>{" "}
         <span role="img" aria-hidden="true">
@@ -22,7 +22,7 @@ const Header = () => {
       >
         <IonIcon
           name="menu-outline"
-          className="text-5xl leading-none hover:text-purple-700 focus:text-purple-700 transition-colors"
+          className="text-5xl leading-none hover:text-violet-700 focus:text-violet-700 transition-colors"
           role="img"
           aria-label="Toggle menu"
         />

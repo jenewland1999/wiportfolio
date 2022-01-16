@@ -1,5 +1,5 @@
-import * as React from "react";
 import ctl from "@netlify/classnames-template-literals";
+import * as React from "react";
 import ButtonAnchor from "./ButtonAnchor";
 
 const skipToContentClasses = ctl(`
@@ -9,7 +9,6 @@ const skipToContentClasses = ctl(`
   focus:my-6
   focus:px-6
   focus:py-3
-  lg:transform
   lg:focus:m-0
   lg:focus:top-6
   lg:focus:left-2/4
