@@ -3,7 +3,7 @@
   "private": true,
   "description": "The source code for my forever work-in-progress portfolio website cleverly named wiportfolio.",
   "version": "4.1.0",
-  "author": "Jordan Newland <hello@jenewland.me.uk> (https://jenewland.me.uk)",
+  "author": "Jordan Newland <hello@jenew.land> (https://jenew.land)",
   "bugs": {
     "url": "https://github.com/jenewland1999/wiportfolio/issues"
   },
@@ -39,7 +39,8 @@
   "keywords": [
     "portfolio-website",
     "gatsby",
-    "tailwindcss"
+    "tailwindcss",
+    "portfolio"
   ],
   "license": "UNLICENSED",
   "main": "n/a",

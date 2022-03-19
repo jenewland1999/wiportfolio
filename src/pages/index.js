@@ -36,7 +36,7 @@ const IndexPage = () => {
             />
             <ButtonAnchor
               className="w-full md:w-auto"
-              href="https://cdn.jenewland.me.uk/media/docs/cv_newland-j.pdf"
+              href="https://cdn.jenew.land/media/docs/cv_newland-j.pdf"
               text="View Résumé"
               variant="secondary"
               isExternal

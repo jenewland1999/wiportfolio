@@ -3,7 +3,7 @@ module.exports = {
     title: `UI/UX Designer and Front-end Developer • Jordan Newland 🏳️‍🌈`,
     description: `Creative UI/UX Designer and Web Developer based in the UK. Promoting a greener, more accessible web for all. Learn more.`,
     author: `@jenewland1999`,
-    siteUrl: `https://jenewland.me.uk/`,
+    siteUrl: `https://jenew.land`,
   },
   plugins: [
     `gatsby-plugin-robots-txt`,
