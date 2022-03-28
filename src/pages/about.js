@@ -16,7 +16,7 @@ const AboutPage = () => {
         <figure className="w-3/4 lg:w-1/3 mx-auto mb-16 lg:mb-0 lg:mr-16">
           <Avatar className="block h-full w-full max-w-80" />
         </figure>
-        <article className="lg:w-2/3 max-w-3xl">
+        <article className="lg:w-2/3 max-w-3xl mx-auto px-4">
           <h2 className="font-medium text-4xl md:text-5xl text-center mb-6 lg:text-left">
             About <strong>me</strong>, <strong>myself</strong>, and{" "}
             <strong>I</strong>
